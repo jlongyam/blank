@@ -75,15 +75,6 @@
     <preference name="AndroidWindowSplashScreenBackground" value="#ffffff"/>
     <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/android/screen/window_splashscreen_icon.png"/>
   </platform>
-  <platform name="electron">
-    <icon src="/res/electron/icon/icon_electron_512.png" width="512" height="512"/>
-    <splash src="/res/electron/screen/electron_splash_image.png" width="620" height="300"/>
-    <preference name="SplashScreenWidth" value="620"/>
-    <preference name="SplashScreenHeight" value="300"/>
-    <preference name="ShowSplashScreen" value="false"/>
-  </platform>
-  <preference name="WindowsStorePublisherName" value="My Name"/>
-  <preference name="WindowsStoreIdentityName" value="999b8376-d3fc-436e-270a-30064c5ef231"/>
   <preference name="KeepRunning" value="true"/>
   <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
   <preference name="Orientation" value="default"/>
