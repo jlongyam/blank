@@ -11,18 +11,30 @@
   },
   "devDependencies": {
     "cordova": "^12.0.0",
-    "cordova-browser": "^7.0.0"
+    "cordova-android": "^14.0.1",
+    "cordova-browser": "^7.0.0",
+    "cordova-ios": "^8.0.0"
   },
   "cordova": {
     "plugins": {
       "cordova-plugin-device": {},
       "cordova-plugin-file": {}
-    }
+    },
+    "platforms": [
+      "browser",
+      "android",
+      "ios"
+    ]
   },
   "scripts": {
-    "prepare": "scripts/prepare.sh",
+    "browser:install": "cordova platform add browser",
+    "browser:prepare": "scripts/prepare.sh",
     "browser": "cordova run browser",
     "sync": "cordova build browser",
-    "browser:clean": "cordova clean browser"
+    "android:install": "cordova platform add android",
+    "android": "cordova run android",
+    "ios:install": "cordova platform add ios",
+    "ios": "cordova run ios",
+    "iconizr": "scripts/icon.sh"
   }
 }
