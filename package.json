@@ -34,7 +34,7 @@
     "android:install": "cordova platform add android",
     "android": "cordova run android",
     "ios:install": "cordova platform add ios",
-    "ios": "cordova run ios",
+    "ios": "cordova run ios  --target=\"iPhone-17-Pro\"",
     "iconizr": "scripts/icon.sh"
   }
 }

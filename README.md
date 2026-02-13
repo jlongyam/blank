@@ -15,4 +15,8 @@
 - put in `assets/image`
 - configure `scripts/icon.sh`
 
+Todo:
+
+- [makeappicon](https://makeappicon.com/)
+
 </details>
